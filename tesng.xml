@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="SanityTestSuite">
+
+    <test name="SanityTest">
+        <parameter name="browser" value="Edge"/>
+        <parameter name="platform" value="Windows 10"/>
+        <parameter name="version" value="latest"/>
+        <classes>
+<!--            <class name="TestCase.LoginTest"/>-->
+
+            <class name="TestCase.ProductVerification"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
